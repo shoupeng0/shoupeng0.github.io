@@ -9,6 +9,8 @@
         <lastBuildDate>Sun, 08 Oct 2023 19:21:34 +0800</lastBuildDate>
         <category>Docker</category>
         <category>Compose</category>
+        <category>MQ</category>
+        <category>Middleware</category>
         <item>
             <guid isPermalink="true">https://shoupeng0.github.io/2023/10/08/docker-compose/</guid>
             <title>Docker Compose 容器编排</title>
