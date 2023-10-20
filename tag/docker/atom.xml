@@ -8,6 +8,16 @@
     <category term="Compose" />
     <category term="MQ" />
     <category term="Middleware" />
+    <category term="idempotence" />
+    <category term="priority" />
+    <category term="inertia" />
+    <category term="delay queue" />
+    <category term="dead letter queue" />
+    <category term="exchange" />
+    <category term="release confirmation" />
+    <category term="relevant concepts" />
+    <category term="install" />
+    <category term="quick started" />
     <entry>
         <id>https://shoupeng0.github.io/2023/10/08/docker-compose/</id>
         <title>Docker Compose 容器编排</title>

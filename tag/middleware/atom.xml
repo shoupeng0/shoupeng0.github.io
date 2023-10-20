@@ -8,6 +8,16 @@
     <category term="Compose" />
     <category term="MQ" />
     <category term="Middleware" />
+    <category term="idempotence" />
+    <category term="priority" />
+    <category term="inertia" />
+    <category term="delay queue" />
+    <category term="dead letter queue" />
+    <category term="exchange" />
+    <category term="release confirmation" />
+    <category term="relevant concepts" />
+    <category term="install" />
+    <category term="quick started" />
     <entry>
         <id>https://shoupeng0.github.io/2023/10/11/Middleware/</id>
         <title>中间件介绍</title>
@@ -43,7 +53,7 @@
 &lt;p&gt;在项目的架构和重构中，使用任何技术和架构的改变我们都需要谨慎斟酌和思考，因为任何技术的融入和变化都可能人员，技术，和成本的增加，中间件的技术一般现在一些互联网公司或者项目中使用比较多，如果你仅仅还只是一个初创公司建议还是使用单体架构，最多加个缓存中间件即可，不要盲目追求新或者所谓的高性能，而追求的背后一定是业务的驱动和项目的驱动，因为一旦追求就意味着你的学习成本，公司的人员结构以及服务器成本，维护和运维的成本都会增加，所以需要谨慎选择和考虑。&lt;/p&gt;
 &lt;p&gt;但是作为一个开放人员，一定要有学习中间件技术的能力和思维，否则很容易当项目发展到一个阶段在去掌握估计或者在面试中提及，就会给自己带来不小的困扰，在当今这个时代这些技术也并不是什么新鲜的东西，如果去掌握和挖掘最关键的还是自己花时间和经历去探讨和研究。&lt;/p&gt;
 &lt;h2 id=&#34;中间件技术及架构的概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中间件技术及架构的概述&#34;&gt;#&lt;/a&gt; 中间件技术及架构的概述&lt;/h2&gt;
-&lt;p&gt;&amp;lt;iframe src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub3RlLm9kZGZhci5jb20vbWFya21hcC8lRTYlQjYlODglRTYlODElQUYlRTQlQjglQUQlRTklOTclQjQlRTQlQkIlQjYuaHRtbA==&#34;&gt;https://note.oddfar.com/markmap/ 消息中间件.html&lt;/span&gt;&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;800&amp;quot; frameborder=&amp;quot;0&amp;quot; scrolling=&amp;quot;No&amp;quot; leftmargin=&amp;quot;0&amp;quot; topmargin=&amp;quot;0&amp;quot; style=&amp;quot;color: rgb(0, 50, 60); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;E:%5CDownloads%5Ctypora-user-images%5Cimage-20231011115240074.png&#34; alt=&#34;image-20231011115240074&#34; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;单体架构&lt;/p&gt;
 &lt;/blockquote&gt;
